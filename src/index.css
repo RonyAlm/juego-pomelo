@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Sora';
-    src: url('./fonts/Sora.woff2') format('woff2');
+    src: url('./assets/fonts/Sora.woff2') format('woff2');
     font-style: normal;
     font-weight: 100 700;
     font-display: swap;
