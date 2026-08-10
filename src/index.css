@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'Sora';
+    src: url('./fonts/Sora.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
+
+@theme {
+    --color-primary: #125187bf;
+    --color-primary-dark: #0f3c6b;
+    --color-primary-light: #1a6db0;
+
+    --color-secondary: #d4d4d4;
+    --color-secondary-dark: #b3b3b3;
+    --color-secondary-light: #f2f2f2;
+
+    --color-pomelo: #008231;
+    --color-pomelo-dark: #006b1b;
+    --color-pomelo-light: #00a63d;
+
+    /* Fuentes */
+   --font-sans: 'Sora', system-ui, sans-serif;
+}
