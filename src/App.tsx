@@ -199,10 +199,10 @@ function App() {
                                 const y2 = 170 + radius * Math.sin(endRadians)
                                 const path = `M170 170 L ${x1} ${y1} A ${radius} ${radius} 0 0 1 ${x2} ${y2} Z`
                                 const textAngle = startAngle + segmentAngle / 2
-                                const textRadius = radius * 0.65
+                                // const textRadius = radius * 0.65
                                 const iconRadius = radius * 0.55
-                                const textX = 170 + textRadius * Math.cos((Math.PI / 180) * textAngle)
-                                const textY = 170 + textRadius * Math.sin((Math.PI / 180) * textAngle)
+                                // const textX = 170 + textRadius * Math.cos((Math.PI / 180) * textAngle)
+                                // const textY = 170 + textRadius * Math.sin((Math.PI / 180) * textAngle)
                                 const iconX = 170 + iconRadius * Math.cos((Math.PI / 180) * textAngle)
                                 const iconY = 170 + iconRadius * Math.sin((Math.PI / 180) * textAngle)
                                 return (
