@@ -5,10 +5,10 @@ const SectionHome = ({setHasStarted} : {setHasStarted: React.Dispatch<React.SetS
   return (
         <section className=" flex flex-col items-center justify-center gap-4 py-8 text-center">
             <div className="flex h-full items-center justify-center">
-              <img src={logo} alt="Logo Pomelo" className='w-80' />
+              <img src={logo} alt="Logo Pomelo" className='w-60 md:w-80' />
             </div>
             
-              <p className="mt-4 font-[Sora] font-bold text-base text-green-950 sm:text-3xl">
+              <p className="mt-4 font-[Sora] font-bold text-3xl text-green-950">
                 Juego de preguntas <br /> y respuestas.
               </p>
             
