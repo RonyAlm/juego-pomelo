@@ -3,12 +3,17 @@ import { useMemo, useState } from 'react'
 import questionsData from './data/questions.json'
 import logoPomelo from './assets/logo.png'
 import logoPaippa from './assets/logo-paippa.png'
-import hero from './assets/hero.png'
+import logoNutrifor from './assets/logo-nutrifor.png'
+import logoLaformed from './assets/logo-laformed.jpeg'
+import question70 from './assets/question/70.jpg'
+import question71 from './assets/question/71.jpg'
+import question72 from './assets/question/72.jpg'
 import SectionHome from './component/SectionHome'
 
 type Question = {
   id: number
   question: string
+  image: string | null
   options: string[]
   answer: string
 }
@@ -21,6 +26,12 @@ type Prize = {
 }
 
 const MAX_QUESTIONS = 6
+
+const questionImages: Record<string, string> = {
+  '/images/question/70.jpg': question70,
+  '/images/question/71.jpg': question71,
+  '/images/question/72.jpg': question72,
+}
 
 function getRandomQuestions(items: Question[], count = MAX_QUESTIONS) {
   const shuffled = [...items]
@@ -80,12 +91,11 @@ function App() {
     setIsSpinning(false)
     setHasStarted(false)
   }
-
   const prizes: Prize[] = [
-    { id: 1, label: 'Formosa Hermosa', color: '#127ee4', image: logoPomelo },
-    { id: 2, label: 'Pomelo', color: '#adaf19', image: hero },
+    { id: 1, label: 'LAFORMED', color: '#0057a4', image: logoLaformed },
+    { id: 2, label: 'Pomelo', color: '#6fd32c', image: logoPomelo },
     { id: 3, label: 'Paippa', color: '#0ba806', image: logoPaippa },
-    { id: 4, label: 'Turismo', color: '#0bf588', image: hero },
+    { id: 4, label: 'Nutrifor', color: '#d60340', image: logoNutrifor },
   ]
 
   const spinWheel = () => {
@@ -167,10 +177,10 @@ function App() {
                         <div className="relative p-4">
                           <div className="absolute left-1/2 top-6 z-30 h-0 w-0 -translate-x-1/2 -translate-y-full border-l-14 border-r-14 border-t-24 
                           border-l-transparent border-r-transparent border-t-green-950 shadow-[0_0_10px_rgba(17, 155, 58, 0.8)]" />
-                          <svg viewBox="0 0 340 340" className="h-85 w-85">
+                          <svg viewBox="0 0 340 340" className="h-90 w-90">
                             <defs>
                               <clipPath id="logoCircleClip">
-                                <circle cx="170" cy="170" r="34" />
+                                <circle cx="170" cy="170" r="38" />
                               </clipPath>
                             </defs>
                             <circle cx="170" cy="170" r="164" fill="rgba(22, 175, 17, 0.05)" stroke="rgba(12, 155, 24, 0.18)" strokeWidth="4" />
@@ -210,10 +220,10 @@ function App() {
                                     <path d={path} fill={prizeItem.color} stroke="#0f172a" strokeWidth="2" />
                                     <image
                                       href={prizeItem.image}
-                                      x={iconX - 23}
-                                      y={iconY - 23}
-                                      width="46"
-                                      height="46"
+                                      x={iconX - 26}
+                                      y={iconY - 26}
+                                      width="52"
+                                      height="52"
                                       preserveAspectRatio="xMidYMid meet"
                                     />
                                     {/* <text
@@ -234,10 +244,10 @@ function App() {
                             </motion.g>
                             <image
                               href={logoPomelo}
-                              x="136"
-                              y="136"
-                              width="70"
-                              height="70"
+                              x="131"
+                              y="131"
+                              width="78"
+                              height="78"
                               preserveAspectRatio="xMidYMid meet"
                               clipPath="url(#logoCircleClip)"
                             />
@@ -295,12 +305,20 @@ function App() {
             ) : (
               <section className="space-y-6">
                 <div className="space-y-2">
+                  {currentQuestion.image && (
+                    <img
+                      src={questionImages[currentQuestion.image] ?? currentQuestion.image}
+                      alt="Imagen de la pregunta"
+                      className="mx-auto max-h-72 w-full rounded-2xl object-contain my-4 mb-6"
+                    />
+                  )}
                   <h1 className="text-green-900 text-2xl font-semibold sm:text-3xl">{currentQuestion.question}</h1>
                   <p className="text-sm text-green-950">Elige la opción correcta.</p>
                 </div>
 
                 <div className="grid gap-3">
                   {currentQuestion.options.map((option) => {
+                    
                     const isCorrect = option === currentQuestion.answer
                     const isSelected = selectedAnswer === option
                     const isWrongSelected = selectedAnswer && isSelected && !isCorrect

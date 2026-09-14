@@ -2,6 +2,7 @@
   {
     "id": 1,
     "question": "¿Cuál es la fecha de fundación de Formosa?",
+    "image": null,
     "options": [
       "8 de Abril de 1879",
       "8 de Abril de 1978",
@@ -12,6 +13,7 @@
   {
     "id": 2,
     "question": "¿Quién fundó Formosa?",
+    "image": null,
     "options": [
       "Ignacio Fotheringham",
       "Luis Jorge Fontana",
@@ -22,6 +24,7 @@
   {
     "id": 3,
     "question": "¿En qué fecha se promulgó la Ley N° 14.408 de Provincialización?",
+    "image": null,
     "options": [
       "8 de Abril de 1955",
       "28 de Junio de 1879",
@@ -32,6 +35,7 @@
   {
     "id": 4,
     "question": "¿Cuántos departamentos tiene la provincia de Formosa?",
+    "image": null,
     "options": [
       "6",
       "7",
@@ -42,6 +46,7 @@
   {
     "id": 5,
     "question": "¿Cuál es la superficie total de la provincia de Formosa?",
+    "image": null,
     "options": [
       "72.066 Km2",
       "66.720 Km2",
@@ -52,6 +57,7 @@
   {
     "id": 6,
     "question": "¿Cómo se llama el trópico que atraviesa por el norte a la provincia de Formosa?",
+    "image": null,
     "options": [
       "Capricornio",
       "Cáncer",
@@ -62,6 +68,7 @@
   {
     "id": 7,
     "question": "¿Cómo se llama la línea imaginaria que separa la provincia de Formosa de Salta?",
+    "image": null,
     "options": [
       "Barbier",
       "Barilari",
@@ -72,6 +79,7 @@
   {
     "id": 8,
     "question": "¿Cuál es el Departamento más grande de la provincia de Formosa?",
+    "image": null,
     "options": [
       "Pirané",
       "Patiño",
@@ -82,6 +90,7 @@
   {
     "id": 9,
     "question": "¿Cuáles son los principales ríos de la provincia de Formosa?",
+    "image": null,
     "options": [
       "Río Bermejo, Río Paraguay, Río Pilcomayo",
       "Río Paraguay, Río Uruguay, Río Bermejo",
@@ -92,6 +101,7 @@
   {
     "id": 10,
     "question": "¿En qué localidades formoseñas se encuentran las Misiones Franciscanas?",
+    "image": null,
     "options": [
       "San Francisco del Laishí y Palo Santo",
       "San Francisco del Laishí y Misión Tacaaglé",
@@ -101,267 +111,8 @@
   },
   {
     "id": 11,
-    "question": "¿En qué localidad se realiza la Fiesta Nacional e Internacional del Río, Mate y Tereré?",
-    "options": [
-      "Ibarreta",
-      "Formosa",
-      "Clorinda"
-    ],
-    "answer": "Formosa"
-  },
-  {
-    "id": 12,
-    "question": "¿En qué localidad se encuentra el Camping Provincial del Timbó?",
-    "options": [
-      "Herradura",
-      "El Colorado",
-      "Clorinda"
-    ],
-    "answer": "Herradura"
-  },
-  {
-    "id": 14,
-    "question": "Si llegamos a Fortín Soledad, ¿qué atractivo turístico podemos visitar?",
-    "options": [
-      "Reserva Natural Formosa",
-      "Bañado La Estrella",
-      "Parque Nacional Río Pilcomayo"
-    ],
-    "answer": "Bañado La Estrella"
-  },
-  {
-    "id": 15,
-    "question": "¿Qué representa la Plaza Temática de la Ciudad de Formosa?",
-    "options": [
-      "Los 9 Departamentos de Formosa",
-      "Los próceres",
-      "La Fundación de Formosa"
-    ],
-    "answer": "Los 9 Departamentos de Formosa"
-  },
-  {
-    "id": 16,
-    "question": "¿Cómo se llama la Virgen patrona de Formosa?",
-    "options": [
-      "Virgen del Carmen",
-      "Virgen de Luján",
-      "Virgen de Caacupé"
-    ],
-    "answer": "Virgen del Carmen"
-  },
-  {
-    "id": 17,
-    "question": "¿Qué es la Reserva Guaycolec?",
-    "options": [
-      "Una Estación de Animales Silvestres",
-      "Un Zoológico",
-      "Una Reserva Privada"
-    ],
-    "answer": "Una Estación de Animales Silvestres"
-  },
-  {
-    "id": 18,
-    "question": "La estructura del Museo Juan Pablo Duffard, ¿Qué función tenía antiguamente?",
-    "options": [
-      "Residencia del Gobernador Fotheringham",
-      "Municipalidad",
-      "Cafetería"
-    ],
-    "answer": "Residencia del Gobernador Fotheringham"
-  },
-  {
-    "id": 19,
-    "question": "¿En qué localidad se encuentra el Museo Arqueológico Escolar?",
-    "options": [
-      "Pozo del Tigre",
-      "Villa Escolar",
-      "El Quebracho"
-    ],
-    "answer": "El Quebracho"
-  },
-  {
-    "id": 20,
-    "question": "¿En qué localidad se encuentra el Museo del Carnaval?",
-    "options": [
-      "Las Lomitas",
-      "Pozo del Tigre",
-      "Ibarreta"
-    ],
-    "answer": "Ibarreta"
-  },
-  {
-    "id": 21,
-    "question": "¿En qué localidad se encuentra el Museo del Nordeste Formoseño?",
-    "options": [
-      "Laguna Gallo",
-      "Laguna Blanca",
-      "Laguna Naineck"
-    ],
-    "answer": "Laguna Blanca"
-  },
-  {
-    "id": 22,
-    "question": "¿En qué año se inauguró el edificio de la Facultad de Ciencias de la Salud de la UPLaB?",
-    "options": [
-      "2019",
-      "2022",
-      "2024"
-    ],
-    "answer": "2024"
-  },
-  {
-    "id": 23,
-    "question": "El edificio de la Municipalidad de la Ciudad de Formosa, ¿qué función tenía antiguamente?",
-    "options": [
-      "Estación de Ferrocarril",
-      "Terminal de Ómnibus",
-      "Aeropuerto"
-    ],
-    "answer": "Estación de Ferrocarril"
-  },
-  {
-    "id": 24,
-    "question": "¿Qué representa el campo blanco en la bandera de Formosa?",
-    "options": [
-      "Producción de algodones",
-      "El cielo",
-      "El Cono Sur abrazado por los 2 océanos"
-    ],
-    "answer": "El Cono Sur abrazado por los 2 océanos"
-  },
-  {
-    "id": 25,
-    "question": "¿Quiénes fueron los autores de la Marcha Formosa?",
-    "options": [
-      "Armando De Vita y Lacerra - Victor Rival",
-      "Vicente López y Planes - Blas Parera",
-      "Carlos Obligado - José Tieri"
-    ],
-    "answer": "Armando De Vita y Lacerra - Victor Rival"
-  },
-  {
-    "id": 26,
-    "question": "¿En qué localidad se encuentra el Museo Provincial de Ciencias Naturales?",
-    "options": [
-      "Villa Escolar",
-      "Villafañe",
-      "Villa 213"
-    ],
-    "answer": "Villa Escolar"
-  },
-  {
-    "id": 27,
-    "question": "¿Cómo se llama la costanera de Formosa?",
-    "options": [
-      "Costanera Costa Formosa",
-      "Costanera Formosa Hermosa",
-      "Costanera Vuelta Fermoza"
-    ],
-    "answer": "Costanera Vuelta Fermoza"
-  },
-  {
-    "id": 28,
-    "question": "¿En qué localidad nació el gobernador de la provincia de Formosa Gildo Insfrán?",
-    "options": [
-      "El Espinillo",
-      "Laguna Naineck",
-      "Laguna Blanca"
-    ],
-    "answer": "Laguna Blanca"
-  },
-  {
-    "id": 29,
-    "question": "¿Dónde descansan los restos del Comandante Luis Jorge Fontana?",
-    "options": [
-      "En el Museo Pablo Duffard",
-      "En la Iglesia Maria Auxiliadora",
-      "En la Catedral de Formosa"
-    ],
-    "answer": "En la Catedral de Formosa"
-  },
-  {
-    "id": 30,
-    "question": "¿Cuál es la ciudad cabecera del Departamento Matacos?",
-    "options": [
-      "Laguna Yema",
-      "Ingeniero Juárez",
-      "Bermejo"
-    ],
-    "answer": "Ingeniero Juárez"
-  },
-  {
-    "id": 31,
-    "question": "¿Cuál es la ciudad cabecera del Departamento Patiño?",
-    "options": [
-      "Formosa",
-      "Gral. Mosconi",
-      "Comandante Fontana"
-    ],
-    "answer": "Comandante Fontana"
-  },
-  {
-    "id": 32,
-    "question": "¿Cuál es la ciudad cabecera del Departamento Pilagás?",
-    "options": [
-      "El Espinillo",
-      "Pirané",
-      "Comandante Fontana"
-    ],
-    "answer": "El Espinillo"
-  },
-  {
-    "id": 33,
-    "question": "¿Cuál es la ciudad cabecera del Departamento Pilcomayo?",
-    "options": [
-      "Pilcomayo",
-      "Clorinda",
-      "El Colorado"
-    ],
-    "answer": "Clorinda"
-  },
-  {
-    "id": 34,
-    "question": "¿Cuál es la ciudad cabecera del Departamento Laishí?",
-    "options": [
-      "San Francisco de Asís",
-      "San Francisco de Laishí",
-      "Misión Franciscana"
-    ],
-    "answer": "San Francisco de Laishí"
-  },
-  {
-    "id": 35,
-    "question": "¿Dónde se ubica la Reserva Natural Formosa dentro de la provincia?",
-    "options": [
-      "al norte",
-      "al sureste",
-      "al suroeste"
-    ],
-    "answer": "al suroeste"
-  },
-  {
-    "id": 36,
-    "question": "¿En qué Departamento se encuentra Herradura?",
-    "options": [
-      "Formosa",
-      "Pilcomayo",
-      "Laishí"
-    ],
-    "answer": "Laishí"
-  },
-  {
-    "id": 37,
-    "question": "¿En qué fecha se celebra el día de la patrona Nuestra Señora Virgen del Carmen?",
-    "options": [
-      "19 de Abril",
-      "7 de Agosto",
-      "16 de Julio"
-    ],
-    "answer": "16 de Julio"
-  },
-  {
-    "id": 38,
-    "question": "¿Cuál es la ubicación geográfica de Formosa en Argentina?",
+    "question": "¿Cuál es la ubicación geográfica de Formosa en Argentina? -",
+    "image": null,
     "options": [
       "NOROESTE",
       "SURESTE",
@@ -370,28 +121,9 @@
     "answer": "NORESTE"
   },
   {
-    "id": 39,
-    "question": "¿Cuál es el animal emblema del Parque Nacional Río Pilcomayo?",
-    "options": [
-      "Aguará Guazú",
-      "Tatú Carreta",
-      "Guazuncho"
-    ],
-    "answer": "Aguará Guazú"
-  },
-  {
-    "id": 40,
-    "question": "¿Cuál es el animal emblema de la Reserva Natural Formosa?",
-    "options": [
-      "Oso Hormiguero",
-      "Tatú Carreta",
-      "Guazuncho"
-    ],
-    "answer": "Tatú Carreta"
-  },
-  {
-    "id": 41,
-    "question": "¿Cuál es la cigüeña más grande de América?",
+    "id": 12,
+    "question": "¿Cuál es la cigüeña más grande de América? -",
+    "image": null,
     "options": [
       "Jabirú",
       "Tuyuyù",
@@ -400,18 +132,42 @@
     "answer": "Jabirú"
   },
   {
-    "id": 42,
+    "id": 13,
+    "question": "Si llegamos a Fortin Soledad, ¿Qué atractivo turístico podemos visitar? -",
+    "image": null,
+    "options": [
+      "Reserva Natural Formosa",
+      "Bañado La Estrella",
+      "Parque Nacional Río Pilcomayo"
+    ],
+    "answer": "Bañado La Estrella"
+  },
+  {
+    "id": 14,
+    "question": "¿Cuál es el animal emblema del Parque Nacional Río Pilcomayo?",
+    "image": null,
+    "options": [
+      "Aguará Guazú",
+      "Tatu Carreta",
+      "Guazuncho"
+    ],
+    "answer": "Aguará Guazú"
+  },
+  {
+    "id": 15,
     "question": "¿Qué ruta debemos recorrer para encontrar las 14 cruces del Vía Crucis Formoseño?",
+    "image": null,
     "options": [
       "Ruta Nacional N° 11",
       "Ruta Nacional N° 86",
-      "Ruta Nacional N° 81"
+      "Ruta Nacional N°81"
     ],
-    "answer": "Ruta Nacional N° 81"
+    "answer": "Ruta Nacional N°81"
   },
   {
-    "id": 43,
-    "question": "¿En qué localidad se encuentra la Casa Histórica del Dr. Laureano Maradona?",
+    "id": 16,
+    "question": "¿En qué localidad se encuentra la Casa Histórica del Doctor Laureano Maradona?",
+    "image": null,
     "options": [
       "Pozo del Tigre",
       "Pirané",
@@ -420,238 +176,9 @@
     "answer": "Estanislao del Campo"
   },
   {
-    "id": 44,
-    "question": "¿Qué río podemos encontrar si visitamos la Costanera Vuelta Fermoza?",
-    "options": [
-      "Río Paraguay",
-      "Río Pilcomayo",
-      "Río Paraná"
-    ],
-    "answer": "Río Paraguay"
-  },
-  {
-    "id": 45,
-    "question": "La Fiesta Nacional del Pomelo ¿En qué localidad se realiza?",
-    "options": [
-      "Herradura",
-      "Ciudad de Formosa",
-      "Laguna Blanca"
-    ],
-    "answer": "Laguna Blanca"
-  },
-  {
-    "id": 46,
-    "question": "¿Cómo se conoce a los árboles cubiertos por enredaderas qué son parte del paisaje del Bañado la Estrella?",
-    "options": [
-      "Champales",
-      "Palmares",
-      "Montes"
-    ],
-    "answer": "Champales"
-  },
-  {
-    "id": 47,
-    "question": "¿Quién fue Pacifico Scozzina?",
-    "options": [
-      "Primer Obispo de Formosa",
-      "Primer Sacerdote",
-      "Primer Monaguillo"
-    ],
-    "answer": "Primer Obispo de Formosa"
-  },
-  {
-    "id": 48,
-    "question": "¿Cómo se llama la Catedral de la Ciudad de Formosa?",
-    "options": [
-      "Virgen de Luján",
-      "Virgen de Caacupé",
-      "Nuestra Señora del Carmen"
-    ],
-    "answer": "Nuestra Señora del Carmen"
-  },
-  {
-    "id": 49,
-    "question": "¿Cuál es la Flor Provincial de Formosa?",
-    "options": [
-      "Ceibo",
-      "Jazmín Mango",
-      "Lapacho"
-    ],
-    "answer": "Jazmín Mango"
-  },
-  {
-    "id": 50,
-    "question": "¿A qué localidad formoseña se la conoce como la Villa Turística y Jardín de la Provincia?",
-    "options": [
-      "Laguna Naineck",
-      "Herradura",
-      "Clorinda"
-    ],
-    "answer": "Herradura"
-  },
-  {
-    "id": 51,
-    "question": "¿Quiénes fueron los creadores de la bandera de Formosa?",
-    "options": [
-      "Maria Beatriz Saez y Walter Willimburgh",
-      "Matias Rodrigo y Fernando Agustin Barroso",
-      "Juan Enrique Bejarano"
-    ],
-    "answer": "Maria Beatriz Saez y Walter Willimburgh"
-  },
-  {
-    "id": 52,
-    "question": "¿Qué significan las estrellas en la bandera de Formosa?",
-    "options": [
-      "El tiempo",
-      "Los 9 Departamentos de la Provincia",
-      "Las especies de fauna más importantes"
-    ],
-    "answer": "Los 9 Departamentos de la Provincia"
-  },
-  {
-    "id": 53,
-    "question": "¿Qué significa el color celeste en la bandera de Formosa?",
-    "options": [
-      "Lagunas y esteros",
-      "Los dos Océanos que abrazan al Cono Sur",
-      "El cielo"
-    ],
-    "answer": "Los dos Océanos que abrazan al Cono Sur"
-  },
-  {
-    "id": 54,
-    "question": "¿Qué representa las guirnaldas de laureles en la bandera de Formosa?",
-    "options": [
-      "Producción agrícola",
-      "La unión",
-      "El trópico de Capricornio"
-    ],
-    "answer": "La unión"
-  },
-  {
-    "id": 55,
-    "question": "¿En qué departamento se encuentra la localidad de El Colorado?",
-    "options": [
-      "Matacos",
-      "Pirané",
-      "Bermejo"
-    ],
-    "answer": "Pirané"
-  },
-  {
-    "id": 56,
-    "question": "¿Qué quiere decir la palabra Formosa?",
-    "options": [
-      "famosa",
-      "hermosa",
-      "talentosa"
-    ],
-    "answer": "hermosa"
-  },
-  {
-    "id": 57,
-    "question": "¿Qué reconocido artista plástico argentino fue creador de la escultura “Última Cena”?",
-    "options": [
-      "Carlos Benavidez",
-      "Leopoldo Maler",
-      "Fernando Pugliese"
-    ],
-    "answer": "Fernando Pugliese"
-  },
-  {
-    "id": 58,
-    "question": "Si nos dirigimos a Clorinda desde Formosa ¿Qué Ruta Nacional debemos tomar?",
-    "options": [
-      "Ruta Nacional N°11",
-      "Ruta Nacional N°81",
-      "Ruta Nacional N°14"
-    ],
-    "answer": "Ruta Nacional N°11"
-  },
-  {
-    "id": 59,
-    "question": "¿Cuál es la ciudad cabecera del departamento Bermejo?",
-    "options": [
-      "Pilcomayo",
-      "El Chorro",
-      "Laguna Yema"
-    ],
-    "answer": "Laguna Yema"
-  },
-  {
-    "id": 61,
-    "question": "¿Cuál es la ciudad cabecera del Departamento Pirané?",
-    "options": [
-      "Pirané",
-      "Formosa",
-      "El Colorado"
-    ],
-    "answer": "Pirané"
-  },
-  {
-    "id": 62,
-    "question": "¿Cómo se llama el Parque Acuático de la Ciudad de Formosa?",
-    "options": [
-      "Parque Acuatico 9 de Julio",
-      "Parque Acuático 25 de Mayo",
-      "Parque Acuático 17 de Octubre"
-    ],
-    "answer": "Parque Acuático 17 de Octubre"
-  },
-  {
-    "id": 63,
-    "question": "¿Cómo se llama el Instituto Superior de Artes de Formosa?",
-    "options": [
-      "Instituto Gral. Belgrano",
-      "Instituto Oscar Alberto Albertazzi",
-      "Instituto Superior Formación Docente"
-    ],
-    "answer": "Instituto Oscar Alberto Albertazzi"
-  },
-  {
-    "id": 64,
-    "question": "¿Cuál es la ciudad cabecera del departamento Ramón Lista?",
-    "options": [
-      "Las Lomitas",
-      "El Quebracho",
-      "El Chorro"
-    ],
-    "answer": "El Chorro"
-  },
-  {
-    "id": 65,
-    "question": "¿Cuál es el nombre del Hospital de Alta Complejidad en Formosa?",
-    "options": [
-      "Ramón Carrillo",
-      "Distrital 8",
-      "Pte. Juan Domingo Perón"
-    ],
-    "answer": "Pte. Juan Domingo Perón"
-  },
-  {
-    "id": 66,
-    "question": "¿Cuál es el número de la Escuela Sarmiento?",
-    "options": [
-      "Escuela N° 3",
-      "Escuela N° 1",
-      "Escuela N° 2"
-    ],
-    "answer": "Escuela N° 2"
-  },
-  {
-    "id": 67,
-    "question": "¿Dónde se ubica la Reserva de Biósfera Laguna Oca?",
-    "options": [
-      "Ciudad de Formosa",
-      "Clorinda",
-      "El Colorado"
-    ],
-    "answer": "Ciudad de Formosa"
-  },
-  {
-    "id": 69,
-    "question": "¿Qué atractivo turístico fue elegido como una de las 7 Maravillas Naturales de la Argentina?",
+    "id": 17,
+    "question": "¿Qué atractivo turístico fué elegido como una de las 7 Maravillas Naturales de la Argentina?",
+    "image": null,
     "options": [
       "Parque Nacional Río Pilcomayo",
       "Bañado La Estrella",
@@ -660,43 +187,653 @@
     "answer": "Bañado La Estrella"
   },
   {
-    "id": 71,
-    "question": "¿En qué localidad se realiza la Fiesta Nacional de la Corvina de Río?",
+    "id": 18,
+    "question": "¿Qué representa la Plaza Temática de la ciudad de Formosa? -",
+    "image": null,
     "options": [
-      "Colonia Pastoril",
-      "Laguna Blanca",
-      "Herradura"
+      "Los 9 Departamentos de Formosa",
+      "Los proceres",
+      "La Fundación de Formosa"
+    ],
+    "answer": "Los 9 Departamentos de Formosa"
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se llama la Virgen patrona de Formosa? -",
+    "image": null,
+    "options": [
+      "Virgen del Carmen",
+      "Virgen de Luján",
+      "Virgen de Caacupé"
+    ],
+    "answer": "Virgen del Carmen"
+  },
+  {
+    "id": 20,
+    "question": "¿Qué río podemos encontrar si visitamos la Costanera Vuelta Fermoza?",
+    "image": null,
+    "options": [
+      "Río Paraguay",
+      "Río Pilcomayo",
+      "Río Paraná"
+    ],
+    "answer": "Río Paraguay"
+  },
+  {
+    "id": 21,
+    "question": "La Fiesta Nacional del Pomelo ¿En qué localidad se realiza?",
+    "image": null,
+    "options": [
+      "Herradura",
+      "Ciudad de Formosa",
+      "Laguna Blanca"
+    ],
+    "answer": "Laguna Blanca"
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo se conoce a los árboles cubiertos por enredaderas qué son parte del Paisaje del Bañado la Estrella?",
+    "image": null,
+    "options": [
+      "Champales",
+      "Palmares",
+      "Montes"
+    ],
+    "answer": "Champales"
+  },
+  {
+    "id": 23,
+    "question": "¿Quién fué Pacifico Scozzina?",
+    "image": null,
+    "options": [
+      "Primer Obispo de Formosa",
+      "Primer Sacerdote",
+      "Primer Monaguillo"
+    ],
+    "answer": "Primer Obispo de Formosa"
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se llama la Catedral de nuestra Ciudad?",
+    "image": null,
+    "options": [
+      "Virgen de Luján",
+      "Virgen de Caacupé",
+      "Nuestra Señora del Carmen"
+    ],
+    "answer": "Nuestra Señora del Carmen"
+  },
+  {
+    "id": 25,
+    "question": "¿A qué localidad formoseña se la conoce como la Villa Turística y Jardín de la Provincia?",
+    "image": null,
+    "options": [
+      "Laguna NaiNeck",
+      "Herradura",
+      "Clorinda"
     ],
     "answer": "Herradura"
   },
   {
-    "id": 73,
-    "question": "¿Dónde descansan los restos del Dr. Gutnisky, primer Gobernador Constitucional de Formosa?",
+    "id": 26,
+    "question": "¿Cuál es la Flor Provincial de Formosa?",
+    "image": null,
     "options": [
-      "Cementerio San Antonio",
-      "Cementerio Virgen del Carmen",
-      "Cementerio Remanso de Paz"
+      "Ceibo",
+      "Jazmín Mango",
+      "Lapacho"
     ],
-    "answer": "Cementerio Virgen del Carmen"
+    "answer": "Jazmín Mango"
   },
   {
-    "id": 74,
-    "question": "¿En qué departamento se encuentra la localidad de Colonia Pastoril?",
+    "id": 27,
+    "question": "¿Qué es la Reserva Guaycolec? -",
+    "image": null,
     "options": [
-      "Formosa",
+      "Una Estacion de Animales Silvestres",
+      "Un Zoológico",
+      "Una Reserva Privada"
+    ],
+    "answer": "Una Estacion de Animales Silvestres"
+  },
+  {
+    "id": 28,
+    "question": "La estructura del Museo Juan Pablo Duffard, ¿Qué función tenía antiguamente? -",
+    "image": null,
+    "options": [
+      "Residencia del Gobernador Fotheringham",
+      "Municipalidad",
+      "Cafetería"
+    ],
+    "answer": "Residencia del Gobernador Fotheringham"
+  },
+  {
+    "id": 29,
+    "question": "El edificio de la Municipalidad ¿Que función tenía antiguamente? -",
+    "image": null,
+    "options": [
+      "Estación de Ferrocarril",
+      "Terminal de Ómnibus",
+      "Aeropuerto"
+    ],
+    "answer": "Estación de Ferrocarril"
+  },
+  {
+    "id": 30,
+    "question": "¿Quiénes fueron los creadores de la bandera de Formosa?",
+    "image": null,
+    "options": [
+      "Maria Beatriz Saez y Walter Willimburgh",
+      "Matias Rodrigo y Fernando Agustin Barroso",
+      "Juan Enrique Bejarano"
+    ],
+    "answer": "Maria Beatriz Saez y Walter Willimburgh"
+  },
+  {
+    "id": 31,
+    "question": "¿Qué significan las estrellas en la Bandera de Formosa?",
+    "image": null,
+    "options": [
+      "El tiempo",
+      "Los 9 Departamentos de la Provincia",
+      "Las especies de fauna más importantes"
+    ],
+    "answer": "Los 9 Departamentos de la Provincia"
+  },
+  {
+    "id": 32,
+    "question": "¿Qué significa el color celeste en la bandera de Formosa?",
+    "image": null,
+    "options": [
+      "Lagunas y esteros",
+      "Los dos Océanos",
+      "El cielo"
+    ],
+    "answer": "Los dos Océanos"
+  },
+  {
+    "id": 33,
+    "question": "¿Qué representa las guirnaldas de laureles en la Bandera de Formosa?",
+    "image": null,
+    "options": [
+      "Producción agrícola",
+      "La unión",
+      "El trópico de Capricornio"
+    ],
+    "answer": "El trópico de Capricornio"
+  },
+  {
+    "id": 34,
+    "question": "¿Qué representa el campo blanco en la Bandera de Formosa? -",
+    "image": null,
+    "options": [
+      "Producción de algodones",
+      "El cielo",
+      "El cono Sur abrazados por los dos Océanos"
+    ],
+    "answer": "El cono Sur abrazados por los dos Océanos"
+  },
+  {
+    "id": 35,
+    "question": "¿En qué localidad se encuentra el Museo Provincial de Ciencias Naturales? -",
+    "image": null,
+    "options": [
+      "Villa Escolar",
+      "Villafañe/",
+      "Villa 213"
+    ],
+    "answer": "Villa Escolar"
+  },
+  {
+    "id": 36,
+    "question": "¿Quiénes fueron los autores de la Marcha Formosa? -",
+    "image": null,
+    "options": [
+      "Armando De Vita y Lacerra - Victor Rival",
+      "Vicente López y Planes - Blas Parera",
+      "Carlos Obligado - José Tieri"
+    ],
+    "answer": "Armando De Vita y Lacerra - Victor Rival"
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se llama la costanera de Formosa? -",
+    "image": null,
+    "options": [
+      "Costanera Costa Formosa",
+      "Costanera Formosa Hermosa",
+      "Costanera Vuelta Fermoza"
+    ],
+    "answer": "Costanera Vuelta Fermoza"
+  },
+  {
+    "id": 38,
+    "question": "¿Dónde descansan los restos del Comandante Luis Jorge Fontana? -",
+    "image": null,
+    "options": [
+      "En el Museo Pablo Duffard",
+      "En la Iglesia Maria Auxiliadora",
+      "En la Catedral Nuestra Señora Virgen del Carmen"
+    ],
+    "answer": "En la Catedral Nuestra Señora Virgen del Carmen"
+  },
+  {
+    "id": 39,
+    "question": "¿En qué localidad nació el actual Gobernador de la Provincia de Formosa? -",
+    "image": null,
+    "options": [
+      "Espinillo",
+      "Naineck",
+      "Laguna Blanca"
+    ],
+    "answer": "Laguna Blanca"
+  },
+  {
+    "id": 40,
+    "question": "¿En qué departamento se encuentra la localidad de El Colorado?",
+    "image": null,
+    "options": [
       "Matacos",
-      "Bermejo"
-    ],
-    "answer": "Formosa"
-  },
-  {
-    "id": 75,
-    "question": "¿En qué departamento se encuentra la localidad de Fortín Soledad?",
-    "options": [
-      "Patiño",
       "Pirané",
       "Bermejo"
     ],
-    "answer": "Bermejo"
+    "answer": "Pirané"
+  },
+  {
+    "id": 41,
+    "question": "¿Qué quiere decir la palabra Formosa?",
+    "image": null,
+    "options": [
+      "famosa",
+      "hermosa",
+      "talentosa"
+    ],
+    "answer": "hermosa"
+  },
+  {
+    "id": 42,
+    "question": "¿Qué reconocido artista plástico argentino fue creador de la escultura “Última Cena”?",
+    "image": null,
+    "options": [
+      "Carlos Benavidez",
+      "Leopoldo Maler",
+      "Fernando Pugliese"
+    ],
+    "answer": "Fernando Pugliese"
+  },
+  {
+    "id": 43,
+    "question": "¿En qué departamento se encuentra Las Lomitas?",
+    "image": null,
+    "options": [
+      "Bermejo",
+      "Matacos",
+      "Patiño"
+    ],
+    "answer": "Patiño"
+  },
+  {
+    "id": 44,
+    "question": "Si nos dirigimos hacia la Ciudad de Clorinda ¿Qué Ruta Nacional debemos tomar?",
+    "image": null,
+    "options": [
+      "Ruta Nacional N°11",
+      "Ruta Nacional N°81",
+      "Ruta Nacional N°14"
+    ],
+    "answer": "Ruta Nacional N°11"
+  },
+  {
+    "id": 45,
+    "question": "¿A cuántos Km aproximadamente se encuentra Las Lomitas desde la Ciudad de Formosa?",
+    "image": null,
+    "options": [
+      "1000 km",
+      "300 km",
+      "150 km"
+    ],
+    "answer": "300 km"
+  },
+  {
+    "id": 46,
+    "question": "¿Cuál es la ciudad cabecera del departamento Bermejo?",
+    "image": null,
+    "options": [
+      "Pilcomayo",
+      "Gral.Mosconi",
+      "Laguna Yema"
+    ],
+    "answer": "Laguna Yema"
+  },
+  {
+    "id": 47,
+    "question": "Si nombramos “Estero Poí\", ¿A qué conocido Parque Nacional nos estamos refiriendo?",
+    "image": null,
+    "options": [
+      "Parque Nacional Esteros del Iberá",
+      "Parque Nacional Talampaya",
+      "Parque Nacional Río Pilcomayo"
+    ],
+    "answer": "Parque Nacional Río Pilcomayo"
+  },
+  {
+    "id": 48,
+    "question": "¿Cuál es la ciudad cabecera del Departamento de Pirané?",
+    "image": null,
+    "options": [
+      "El Colorado",
+      "Pirané",
+      "Formosa"
+    ],
+    "answer": "Pirané"
+  },
+  {
+    "id": 49,
+    "question": "¿Dónde se ubica la Reserva Natural Formosa dentro de la provincia? -",
+    "image": null,
+    "options": [
+      "al norte",
+      "al sureste",
+      "al suroeste"
+    ],
+    "answer": "al suroeste"
+  },
+  {
+    "id": 50,
+    "question": "¿En qué Departamento se encuentra Herradura? -",
+    "image": null,
+    "options": [
+      "Formosa",
+      "Pilcomayo",
+      "Laishí"
+    ],
+    "answer": "Laishí"
+  },
+  {
+    "id": 51,
+    "question": "¿En qué fecha se celebra el día de la Patrona Virgen del Carmen? -",
+    "image": null,
+    "options": [
+      "19 de Abril",
+      "7 de Agosto",
+      "16 de Julio"
+    ],
+    "answer": "16 de Julio"
+  },
+  {
+    "id": 52,
+    "question": "¿Cómo se llama el Parque Acuático de la ciudad de Formosa?",
+    "image": null,
+    "options": [
+      "Parque Acuatico 9 de Julio",
+      "Parque Acuático 25 de Mayo",
+      "Parque Acuático 17 de Octubre"
+    ],
+    "answer": "Parque Acuático 17 de Octubre"
+  },
+  {
+    "id": 53,
+    "question": "¿Cómo se llama el Teatro de la ciudad donde también se dictan clases?",
+    "image": null,
+    "options": [
+      "Instituto Gral.Belgrano",
+      "Instituto Oscar Alberto Albertazzi",
+      "Instituto Superior Formacion Docente"
+    ],
+    "answer": "Instituto Oscar Alberto Albertazzi"
+  },
+  {
+    "id": 54,
+    "question": "¿Cuál es la ciudad cabecera del departamento Ramon Lista?",
+    "image": null,
+    "options": [
+      "Las Lomitas",
+      "Gral.San Martin",
+      "Gral.Mosconi"
+    ],
+    "answer": "Gral.Mosconi"
+  },
+  {
+    "id": 55,
+    "question": "¿Cuál es el departamento que tiene como ciudad Clorinda?",
+    "image": null,
+    "options": [
+      "Pilcomayo",
+      "Pirane",
+      "Formosa"
+    ],
+    "answer": "Pilcomayo"
+  },
+  {
+    "id": 56,
+    "question": "¿Cuál es el nombre del hospital de alta complejidad con el que contamos dentro de la ciudad Formosa?",
+    "image": null,
+    "options": [
+      "Hospital Central Ramón Carrillo de Formosa",
+      "Hospital Distrital 8",
+      "Hospital de Alta Complejidad Pte.Juan Domingo Perón"
+    ],
+    "answer": "Hospital de Alta Complejidad Pte.Juan Domingo Perón"
+  },
+  {
+    "id": 57,
+    "question": "¿En qué departamento se encuentra el Parque Nacional Pilcomayo y cerca de qué localidad?",
+    "image": null,
+    "options": [
+      "Departamento Pirané,cerca de la localidad de Gran Guardia",
+      "Departamento Formosa,cerca de la localidad de Clorinda",
+      "Departamento Pilcomayo, cerca de la localidad de Laguna Blanca"
+    ],
+    "answer": "Departamento Pilcomayo, cerca de la localidad de Laguna Blanca"
+  },
+  {
+    "id": 58,
+    "question": "¿En qué departamento se encuentra la Reserva Natural Formosa y sobre el margen de qué río?",
+    "image": null,
+    "options": [
+      "Departamento Patiño,sobre el margen del río Bermejo",
+      "Departamento Bermejo ,sobre el margen del río Bermejo",
+      "Departamento Bermejo,sobre el margen del río Teuco"
+    ],
+    "answer": "Departamento Bermejo,sobre el margen del río Teuco"
+  },
+  {
+    "id": 59,
+    "question": "¿Dónde se ubica la Reserva de Biosfera Laguna Oca y sobre qué río ?",
+    "image": null,
+    "options": [
+      "Se ubica en la ciudad de Formosa, sobre la margen derecha del río Paraguay.",
+      "Se ubica en la ciudad de Clorinda,sobre la margen izquierda del río Paraguay",
+      "Se ubica en la localidad del Colorado,sobre la margen del río Bermejo"
+    ],
+    "answer": "Se ubica en la ciudad de Formosa, sobre la margen derecha del río Paraguay."
+  },
+  {
+    "id": 60,
+    "question": "¿Que es el Bañado la Estrella?",
+    "image": null,
+    "options": [
+      "Una Reserva de animales exóticos",
+      "Es un humedal natural,cuyo origen está relacionado con los sucesivos desbordes del río Pilcomayo.",
+      "Es un camping (agregar más)"
+    ],
+    "answer": "Es un humedal natural,cuyo origen está relacionado con los sucesivos desbordes del río Pilcomayo."
+  },
+  {
+    "id": 61,
+    "question": "¿Cuántos años hace de la provincialización de Formosa este 2024?",
+    "image": null,
+    "options": [
+      "69°Aniversario",
+      "67°Aniversario",
+      "70°Aniversario"
+    ],
+    "answer": "69°Aniversario"
+  },
+  {
+    "id": 62,
+    "question": "¿En qué acceso se encuentran la Cruz y el pesebre? ¿ que simboliza ?",
+    "image": null,
+    "options": [
+      "Acceso Norte y simboliza ,trabajo,protección y armonía",
+      "Acceso Oeste y simboliza ,paz y bien",
+      "Acceso Sur y simbolizan ,símbolos de amor, unidad, familia, fe y esperanza"
+    ],
+    "answer": "Acceso Sur y simbolizan ,símbolos de amor, unidad, familia, fe y esperanza"
+  },
+  {
+    "id": 63,
+    "question": "¿Cuándo se inauguró la Costanera de Formosa capital?",
+    "image": null,
+    "options": [
+      "14 de Octubre del 2000",
+      "08 de Abril del 1998",
+      "23 de Mayo del 2003"
+    ],
+    "answer": "23 de Mayo del 2003"
+  },
+  {
+    "id": 64,
+    "question": "¿Cómo se organiza administrativamente la provincia de Formosa?",
+    "image": null,
+    "options": [
+      "Nuestra provincia cuenta con un total de 9 departamentos, 27 municipalidades y 10 comisiones de fomento",
+      "Nuestra provincia se divide administrativamente en 135 municipios que constitucionalmente,se llaman Partidos",
+      "La provincia se divide administrativamente en 23 departamentos, subdivididos en 60 municipios."
+    ],
+    "answer": "Nuestra provincia cuenta con un total de 9 departamentos, 27 municipalidades y 10 comisiones de fomento"
+  },
+  {
+    "id": 65,
+    "question": "¿Cómo se llama el Camping inaugurado recientemente en Herradura?",
+    "image": null,
+    "options": [
+      "Lapacho Camping Provincial",
+      "Camping Provincial El Timbo",
+      "Camping Provincial El Pindo"
+    ],
+    "answer": "Camping Provincial El Timbo"
+  },
+  {
+    "id": 66,
+    "question": "En el Escudo Oficial de la Provincia de Formosa,¿que representa el capullo de algodón ?",
+    "image": null,
+    "options": [
+      "Significa que una persona fue criado con regalos y delicadezas",
+      "Significa símbolo de un porvenir productivo e industrial",
+      "Significa vivir con altura y tranquilidad"
+    ],
+    "answer": "Significa símbolo de un porvenir productivo e industrial"
+  },
+  {
+    "id": 67,
+    "question": "En el escudo Oficial de Formosa,¿que representa las manos entrelazadas?",
+    "image": null,
+    "options": [
+      "Símbolo de amistad y fe",
+      "Símbolo de Salud y esperanza",
+      "Símbolo la unión de todos sus hijos"
+    ],
+    "answer": "Símbolo la unión de todos sus hijos"
+  },
+  {
+    "id": 68,
+    "question": "¿Cuántos años tiene Formosa?",
+    "image": null,
+    "options": [
+      "130 años",
+      "165 años",
+      "145 años"
+    ],
+    "answer": "145 años"
+  },
+  {
+    "id": 69,
+    "question": "Desde la ciudad de Formosa¿ que rutas debemos tomar para dirigirnos hacia el Bañado la Estrella?",
+    "image": null,
+    "options": [
+      "Sobre Ruta Nacional N°11 a la altura del km 1201.",
+      "Ruta Nacional N° 81 se recorren 300 Km hasta llegar a la intersección de con la Ruta Provincial N° 28 en la ciudad de Las Lomitas.",
+      "Por la Ruta 11 hasta Clorinda y luego la Ruta 86 hasta Laguna Naineck, dos kilómetros pasando el pueblo están los carteles que señalan el desvío para el Área Recreativa Laguna Blanca (5km de ripio en buen estado)."
+    ],
+    "answer": "Ruta Nacional N° 81 se recorren 300 Km hasta llegar a la intersección de con la Ruta Provincial N° 28 en la ciudad de Las Lomitas."
+  },
+  {
+    "id": 70,
+    "question": "¿Cómo se llama este famoso mural que se encuentra en el Cementerio Ntra. Sra. Del Carmen?",
+    "image": "/images/question/70.jpg",
+    "options": [
+      "Paisajes Formoseños",
+      "Formosa, Fé y Esperanza",
+      "Bandera Formoseña"
+    ],
+    "answer": "Formosa, Fé y Esperanza"
+  },
+  {
+    "id": 71,
+    "question": "¿Cómo se llama esta especie de Palmera representativa de los paisajes formoseños?",
+    "image": "/images/question/71.jpg",
+    "options": [
+      "Palmera del Carandaì",
+      "Palma Yatay",
+      "Palmera Mboyacà"
+    ],
+    "answer": "Palmera del Carandaì"
+  },
+  {
+    "id": 72,
+    "question": "¿Qué especie de ave se puede observar en mayorparte de la imagen?",
+    "image": "/images/question/72.jpg",
+    "options": [
+      "Flamenco",
+      "Garza Rosa",
+      "Espatula Rosada"
+    ],
+    "answer": "Espatula Rosada"
+  },
+  {
+    "id": 73,
+    "question": "¿Cuál es el nombre de esta ave que se encuentra en peligro de extinción?",
+    "image": "/images/question/73.jpg",
+    "options": [
+      "Yetapá de collar",
+      "Calandria",
+      "Tijereta"
+    ],
+    "answer": "Yetapá de collar"
+  },
+  {
+    "id": 74,
+    "question": "Este hermoso paisaje, ¿a qué área protegida pertenece?",
+    "image": "/images/question/74.jpg",
+    "options": [
+      "Bañado La Estrella",
+      "Parque Nacional Río Pilcomayo",
+      "Reserva Natural Formosa"
+    ],
+    "answer": "Parque Nacional Río Pilcomayo"
+  },
+  {
+    "id": 75,
+    "question": "¿Cómo se llama esta especie de carpintero?",
+    "image": "/images/question/75.jpg",
+    "options": [
+      "Carpintero Campestre",
+      "Carpintero Real",
+      "Carpintero Copete Pajizo"
+    ],
+    "answer": "Carpintero Copete Pajizo"
+  },
+  {
+    "id": 76,
+    "question": "¿Cómo es conocida esta iguana?",
+    "image": "/images/question/76.jpg",
+    "options": [
+      "Sierra morena",
+      "Lagartija verde",
+      "Geko"
+    ],
+    "answer": "Sierra morena"
   }
+
 ]
