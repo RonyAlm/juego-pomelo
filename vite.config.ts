@@ -10,6 +10,11 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
+      workbox: {
+        globPatterns: [
+          '**/*.{js,css,html,ico,png,svg,jpg,jpeg,webp,woff2,mp3,ogg,wav}'
+        ],
+      },
       manifest: {
         name: 'Juego Mintur',
         short_name: 'Mintur',
