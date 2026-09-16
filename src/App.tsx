@@ -140,7 +140,7 @@ function App() {
         ) : (
           <>
             <div className="flex items-center justify-between text-sm text-slate-300">
-              <span className="rounded-full bg-green-600 px-3 py-1 font-medium">Quiz de Turimo Formosa</span>
+              <span className="rounded-full bg-green-600 px-3 py-1 font-medium">Ministerio de Turimo de Formosa</span>
               <span className="text-zinc-800">{currentIndex + 1}/{questions.length}</span>
             </div>
 
@@ -160,19 +160,27 @@ function App() {
                 >
                   {!showWheel ? (
                     <>
-                      <h1 className="text-green-700 text-3xl font-bold">¡Quiz terminado!</h1>
+                      <h1 className="text-green-700 text-3xl font-bold">¡Trivia Terminada!</h1>
                       <p className="text-green-600">
                         Obtuviste <span className="font-semibold ">{score}</span> de  <span className="font-semibold">{questions.length}</span> respuestas correctas.
                       </p>
-                      <p className="text-sm text-slate-800">Ahora puedes girar la ruleta de premios.</p>
                       <div className="flex flex-wrap justify-center gap-3">
-                        <button
-                          onClick={() => setShowWheel(true)}
-                          className="rounded-full bg-green-600 px-5 py-2 font-semibold text-white 
-                           transition hover:bg-green-600/80 cursor-pointer"
-                        >
-                          Girar ruleta
-                        </button>
+                        {
+                          score > 4 ? ( 
+                          <>
+                          <p className="w-full mb-4 text-xl text-slate-800">Ahora puedes girar la ruleta de premios.</p>
+                           <button
+                              onClick={() => setShowWheel(true)}
+                              className="rounded-full bg-green-600 px-5 py-2 font-semibold text-white 
+                               transition hover:bg-green-600/80 cursor-pointer">
+                              Girar ruleta
+                           </button>
+                          </>
+                        ) : (
+                          <p className="w-full mb-4 text-xl text-slate-800">Vuelve a jugar para obtener más premios.</p>
+                        )
+                        }
+                       
                         <button
                           onClick={handleRestart}
                           className="rounded-full border border-green-600 px-5 py-2 font-semibold
