@@ -5,16 +5,25 @@ import logoPomelo from './assets/logo.png'
 import logoPaippa from './assets/logo-paippa.png'
 import logoNutrifor from './assets/logo-nutrifor.png'
 import logoLaformed from './assets/logo-laformed.jpeg'
-import question70 from './assets/question/70.jpg'
-import question71 from './assets/question/71.jpg'
-import question72 from './assets/question/72.jpg'
+import question70 from './assets/images/question/70.jpg'
+import question71 from './assets/images/question/71.jpg'
+import question72 from './assets/images/question/72.jpg'
+import question73 from './assets/images/question/73.jpg'
+import question75 from './assets/images/question/75.jpg'
 import SectionHome from './component/SectionHome'
+
+type QuestionOption = {
+  label: string
+  image?: string
+  audio?: string
+}
 
 type Question = {
   id: number
   question: string
   image: string | null
-  options: string[]
+  audio?: string
+  options: (string | QuestionOption)[]
   answer: string
 }
 
@@ -31,6 +40,8 @@ const questionImages: Record<string, string> = {
   '/images/question/70.jpg': question70,
   '/images/question/71.jpg': question71,
   '/images/question/72.jpg': question72,
+  '/images/question/73.jpg': question73,
+  '/images/question/75.jpg': question75,
 }
 
 function getRandomQuestions(items: Question[], count = MAX_QUESTIONS) {
@@ -60,12 +71,12 @@ function App() {
   const currentQuestion = questions[currentIndex]
   const progress = useMemo(() => ((currentIndex + (selectedAnswer ? 1 : 0)) / questions.length) * 100, [currentIndex, questions.length, selectedAnswer])
 
-  const handleAnswer = (option: string) => {
+  const handleAnswer = (option: QuestionOption) => {
     if (selectedAnswer) return
 
-    setSelectedAnswer(option)
+    setSelectedAnswer(option.label)
 
-    if (option === currentQuestion.answer) {
+    if (option.label === currentQuestion.answer) {
       setScore((prev) => prev + 1)
     }
   }
@@ -314,28 +325,64 @@ function App() {
                   )}
                   <h1 className="text-green-900 text-2xl font-semibold sm:text-3xl">{currentQuestion.question}</h1>
                   <p className="text-sm text-green-950">Elige la opción correcta.</p>
+                  {currentQuestion.audio && (
+                    <div className="mt-4 rounded-2xl border border-green-900/10 bg-white/70 p-4">
+                      <p className="mb-2 text-sm font-semibold text-green-950">Escucha el audio y elige la especie correcta.</p>
+                      <audio
+                        key={currentQuestion.audio}
+                        controls
+                        preload="metadata"
+                        className="w-full"
+                        src={currentQuestion.audio}
+                      >
+                        Tu navegador no soporta la reproducción de audio.
+                      </audio>
+                    </div>
+                  )}
                 </div>
 
-                <div className="grid gap-3">
-                  {currentQuestion.options.map((option) => {
-                    
-                    const isCorrect = option === currentQuestion.answer
-                    const isSelected = selectedAnswer === option
+                <div className={`flex flex-wrap justify-center gap-4`}>
+                  {currentQuestion.options.map((rawOption) => {
+                    const option = typeof rawOption === 'string' ? { label: rawOption } : rawOption
+                    const optionImage = option.image ? questionImages[option.image] ?? option.image : null
+                    const isCorrect = option.label === currentQuestion.answer
+                    const isSelected = selectedAnswer === option.label
                     const isWrongSelected = selectedAnswer && isSelected && !isCorrect
+                    const optionClassName = isWrongSelected
+                      ? 'border-rose-500 bg-white/80 text-rose-500'
+                      : isSelected && isCorrect
+                        ? 'border-emerald-500 bg-green-500/20 text-emerald-200'
+                        : 'border-white/10 bg-white/80 hover:border-green-600'
 
                     return (
                       <button
-                        key={option}
+                        key={option.label}
                         onClick={() => handleAnswer(option)}
-                        className={`text-green-800 rounded-2xl border px-4 py-3 text-left text-sm font-medium transition ${
-                          isWrongSelected
-                            ? 'border-rose-500 bg-white/80 text-rose-500'
-                            : isSelected && isCorrect
-                              ? 'border-emerald-500 bg-green-500/20 text-emerald-200'
-                              : 'border-white/10 bg-white/80 hover:border-green-600'
-                        }`}
+                        className={[
+                          'text-green-800 w-auto rounded-2xl border px-4 py-3 text-left text-sm font-medium transition',
+                          optionClassName,
+                          optionImage ? '' : 'w-full',
+                        ].join(' ')}
                       >
-                        {option}
+                        {optionImage && (
+                          <img
+                            src={optionImage}
+                            alt={option.label}
+                            className={' h-40 w-full rounded-xl object-cover'}
+                          />
+                        )}
+                        {option.audio && (
+                          <audio
+                            controls
+                            preload="metadata"
+                            className="mt-2 w-full"
+                            src={option.audio}
+                            onClick={(event) => event.stopPropagation()}
+                          >
+                            Tu navegador no soporta la reproducción de audio.
+                          </audio>
+                        )}
+                        <span className={optionImage || option.audio ? 'sr-only' : undefined}>{option.label}</span>
                       </button>
                     )
                   })}

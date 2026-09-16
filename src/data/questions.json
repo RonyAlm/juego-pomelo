@@ -834,6 +834,166 @@
       "Geko"
     ],
     "answer": "Sierra morena"
+  },
+  {
+    "id": 77,
+    "question": "Esta especie de ave se llama MUITU es reconocida por estar en peligro de extinción, ¿sabrías reconocer cual es el macho? ",
+    "image": null,
+    "options": [
+      {
+        "label": "muitu macho",
+        "image": "/images/question/77-a.jpg"
+      },
+      {
+        "label": "muitu hembra",
+        "image": "/images/question/77-b.jpg"
+      }
+    ],
+    "answer": "muitu macho"
+  },
+  {
+    "id": 78,
+    "question": "¿Cuál de estas especies es el Martín Pescador?",
+    "image": null,
+    "options": [
+      {
+        "label": "jacana",
+        "image": "/images/question/78-a.jpg"
+      },
+      {
+        "label": "martin pescador",
+        "image": "/images/question/78-b.jpg"
+      }
+    ],
+    "answer": "martin pescador"
+  },
+  {
+    "id": 79,
+    "question": " ¿Cuál es la especie de Tucán que tenemos en Formosa?",
+    "image": "/images/question/79.jpg",
+    "options": [
+      "tucan grande",
+      "tucan de pecho rojo",
+      "tucan de pico manchado"
+    ],
+    "answer": "tucan grande"
+  },
+  {
+    "id": 80,
+    "question": "¿Cuál es la especie de ave que estás escuchando?",
+    "image": null,
+    "audio": "/images/question/80.mp3",
+    "options": [
+      {
+        "label": "pirincho",
+        "image": "/images/question/80-a.jpg"
+      },
+      {
+        "label": " celestino",
+        "image": "/images/question/80-b.jpg"
+      }
+    ],
+    "answer": "pirincho"
+  },
+  {
+    "id": 81,
+    "question": "¿Cuál es la especie de ave que estás escuchando?",
+    "image": null,
+    "audio": "/images/question/81.mp3",
+    "options": [
+      {
+        "label": "tucan",
+        "image": "/images/question/81-a.jpg"
+      },
+      {
+        "label": "carpintero campestre",
+        "image": "/images/question/81-b.jpg"
+      }
+    ],
+    "answer": "tucan"
+  },
+  {
+    "id": 82,
+    "question": "¿Cuál es la especie de ave que estás escuchando?",
+    "image": null,
+    "audio": "/images/question/82.mp3",
+    "options": [
+      {
+        "label": "federal",
+        "image": "/images/question/82-a.jpg"
+      },
+      {
+        "label": "bigua",
+        "image": "/images/question/82-b.jpg"
+      }
+    ],
+    "answer": "bigua"
+  },
+  {
+    "id": 83,
+    "question": "¿Cuál es la especie de ave que estás escuchando?",
+    "image": null,
+    "audio": "/images/question/83.mp3",
+    "options": [
+      {
+        "label": "lavandera",
+        "image": "/images/question/83-a.jpg"
+      },
+      {
+        "label": "zorzal colorado",
+        "image": "/images/question/83-b.jpg"
+      }
+    ],
+    "answer": "lavandera"
+  },
+  {
+    "id": 84,
+    "question": "¿Cuál es la especie de ave que estás escuchando?",
+    "image": null,
+    "audio": "/images/question/84.mp3",
+    "options": [
+      {
+        "label": "carpintero lomo blanco",
+        "image": "/images/question/84-a.jpg"
+      },
+      {
+        "label": "chaja",
+        "image": "/images/question/84-b.jpg"
+      }
+    ],
+    "answer": "chaja"
+  },
+  {
+    "id": 85,
+    "question": "¿Cuál es la especie de ave que estás escuchando?",
+    "image": null,
+    "audio": "/images/question/85.mp3",
+    "options": [
+      {
+        "label": "chiflon",
+        "image": "/images/question/85-a.jpg"
+      },
+      {
+        "label": "bandurria boreal",
+        "image": "/images/question/85-b.jpg"
+      }
+    ],
+    "answer": "bandurria boreal"
+  },
+  {
+    "id": 86,
+    "question": " Esta especie de ave se llama Yetapá de collar y es reconocida por estar en peligro de extinción, ¿sabrías reconocer cual es la hembra?",
+    "image": null,
+    "options": [
+      {
+        "label": "yetapá hembra",
+        "image": "/images/question/86-a.jpg"
+      },
+      {
+        "label": "yetapá macho",
+        "image": "/images/question/86-b.jpg"
+      }
+    ],
+    "answer": "yetapá hembra"
   }
-
 ]
