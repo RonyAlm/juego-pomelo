@@ -11,6 +11,7 @@ import question72 from './assets/images/question/72.jpg'
 import question73 from './assets/images/question/73.jpg'
 import question75 from './assets/images/question/75.jpg'
 import SectionHome from './component/SectionHome'
+import { ArrowRight, Circle, RotateCcw } from 'lucide-react'
 
 type QuestionOption = {
   label: string
@@ -171,9 +172,10 @@ function App() {
                           <p className="w-full mb-4 text-xl text-slate-800">Ahora puedes girar la ruleta de premios.</p>
                            <button
                               onClick={() => setShowWheel(true)}
-                              className="rounded-full bg-green-600 px-5 py-2 font-semibold text-white 
-                               transition hover:bg-green-600/80 cursor-pointer">
+                              className="bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg font-semibold
+                                text-green-950 transition hover:bg-green-600 cursor-pointer flex items-center justify-center gap-2">
                               Girar ruleta
+                              <Circle />
                            </button>
                           </>
                         ) : (
@@ -183,10 +185,10 @@ function App() {
                        
                         <button
                           onClick={handleRestart}
-                          className="rounded-full border border-green-600 px-5 py-2 font-semibold
-                           text-green-600 transition hover:bg-white/10 cursor-pointer"
-                        >
+                          className="bg-green-300/30 rounded-2xl border-2 border-zinc-800 px-6 py-3 text-lg font-semibold
+               text-green-950 transition hover:bg-green-600 cursor-pointer flex items-center justify-center gap-2">
                           Volver al inicio
+                          <RotateCcw />
                         </button>
                       </div>
                     </>
@@ -281,17 +283,21 @@ function App() {
                         disabled={isSpinning}
                         whileHover={{ scale: 1.03, y: -2 }}
                         whileTap={{ scale: 0.97 }}
-                        className="rounded-full bg-green-700 px-6 py-3 font-semibold text-white
-                         shadow-[0_0_25px_rgba(4, 209, 38, 0.35)] transition disabled:cursor-not-allowed
+                        className="bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg font-semibold
+               text-green-950 transition hover:bg-green-600 cursor-pointer flex items-center justify-center gap-2 transition disabled:cursor-not-allowed
                           disabled:opacity-70">
                         {isSpinning ? 'Girando...' : 'Girar'}
+                        <Circle />
                       </motion.button>
 
                       <button
                         onClick={handleRestart}
-                        className="rounded-full border border-green-700 px-5 py-2 font-semibold text-green-700 transition hover:bg-white/10"
+                        className="bg-green-300 rounded-2xl border-2 border-zinc-800 px-6 py-3 text-lg font-semibold
+                             text-green-950 transition hover:bg-green-600 cursor-pointer flex items-center justify-center gap-2"
                       >
+
                         Volver al inicio
+                        <RotateCcw />
                       </button>
 
                      </div>
@@ -332,10 +338,10 @@ function App() {
                     />
                   )}
                   <h1 className="text-green-900 text-2xl font-semibold sm:text-3xl">{currentQuestion.question}</h1>
-                  <p className="text-sm text-green-950">Elige la opción correcta.</p>
+                  
                   {currentQuestion.audio && (
-                    <div className="mt-4 rounded-2xl border border-green-900/10 bg-white/70 p-4">
-                      <p className="mb-2 text-sm font-semibold text-green-950">Escucha el audio y elige la especie correcta.</p>
+                    <div className="mt-4 mb-4 rounded-2xl border border-green-900/10 bg-white/70 p-4">
+                      <p className="mb-2  text-sm font-semibold text-green-950">Escucha el audio y elige la especie correcta.</p>
                       <audio
                         key={currentQuestion.audio}
                         controls
@@ -347,6 +353,8 @@ function App() {
                       </audio>
                     </div>
                   )}
+
+                  <p className="text-sm text-green-950">Elige la opción correcta.</p>
                 </div>
 
                 <div className={`flex flex-wrap justify-center gap-4`}>
@@ -357,7 +365,7 @@ function App() {
                     const isSelected = selectedAnswer === option.label
                     const isWrongSelected = selectedAnswer && isSelected && !isCorrect
                     const optionClassName = isWrongSelected
-                      ? 'border-rose-500 bg-white/80 text-rose-500'
+                      ? 'border-rose-500 bg-rose-500/10 text-red-500'
                       : isSelected && isCorrect
                         ? 'border-emerald-500 bg-green-500/20 text-emerald-200'
                         : 'border-white/10 bg-white/80 hover:border-green-600'
@@ -367,17 +375,25 @@ function App() {
                         key={option.label}
                         onClick={() => handleAnswer(option)}
                         className={[
-                          'text-green-800 w-auto rounded-2xl border px-4 py-3 text-left text-sm font-medium transition',
+                          'text-green-800 w-auto rounded-2xl border px-4 py-4 text-sm font-medium transition',
                           optionClassName,
                           optionImage ? '' : 'w-full',
                         ].join(' ')}
                       >
                         {optionImage && (
-                          <img
-                            src={optionImage}
-                            alt={option.label}
-                            className={' h-40 w-full rounded-xl object-cover'}
-                          />
+                          <> 
+                            <img
+                              src={optionImage}
+                              alt={option.label}
+                              className={' h-40 w-full rounded-xl object-cover'}
+                            />
+                            {
+                              currentQuestion.audio && (
+                                <span className="block pt-4 text-lg text-center uppercase">{option.label}</span>
+                              )
+                            }
+                            
+                          </>
                         )}
                         {option.audio && (
                           <audio
@@ -390,23 +406,29 @@ function App() {
                             Tu navegador no soporta la reproducción de audio.
                           </audio>
                         )}
-                        <span className={optionImage || option.audio ? 'sr-only' : undefined}>{option.label}</span>
+                        <span className={  optionImage || option.audio ? 'sr-only' : 'block text-left'}>{option.label}</span>
                       </button>
                     )
                   })}
                 </div>
 
                 {selectedAnswer && (
-                  <div className="rounded-2xl border border-white/10 bg-green-600 p-4 text-sm text-slate-200">
-                    <p className="font-semibold text-green-950">
+                  <div className="rounded-2xl bg-green-600/60 p-4 text-lg text-slate-200">
+                    <p className={(selectedAnswer === currentQuestion.answer ? 'text-green-950 font-semibold' : 'text-rose-500 text-2xl')}>
                       {selectedAnswer === currentQuestion.answer ? '¡Correcto!' : 'Respuesta incorrecta.'}
                     </p>
                     <p className="mt-1">La respuesta correcta es: <span className="font-semibold text-white">{currentQuestion.answer}</span></p>
                     <button
                       onClick={handleNext}
-                      className="mt-4 rounded-full bg-green-500 px-4 py-2 font-semibold text-white transition hover:bg-green-900 cursor-pointer"
+                      className="mt-4 bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg font-semibold
+               text-green-950 transition hover:bg-green-600 cursor-pointer flex items-center justify-center gap-2"
                     >
-                      {currentIndex === questions.length - 1 ? 'Ver resultado' : 'Siguiente pregunta'}
+                      {currentIndex === questions.length - 1 ? 'Ver resultado' : (
+                        <>
+                        <span>Siguiente pregunta</span> 
+                        <ArrowRight className="w-6 h-6" />
+                        </>
+                      )}
                     </button>
                   </div>
                 )}

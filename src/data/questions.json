@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "question": "¿Cuál es la ubicación geográfica de Formosa en Argentina? -",
+    "question": "¿Cuál es la ubicación geográfica de Formosa en Argentina?",
     "image": null,
     "options": [
       "NOROESTE",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "question": "¿Cuál es la cigüeña más grande de América? -",
+    "question": "¿Cuál es la cigüeña más grande de América?",
     "image": null,
     "options": [
       "Jabirú",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "question": "Si llegamos a Fortin Soledad, ¿Qué atractivo turístico podemos visitar? -",
+    "question": "Si llegamos a Fortin Soledad, ¿Qué atractivo turístico podemos visitar?",
     "image": null,
     "options": [
       "Reserva Natural Formosa",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "question": "¿Qué representa la Plaza Temática de la ciudad de Formosa? -",
+    "question": "¿Qué representa la Plaza Temática de la ciudad de Formosa?",
     "image": null,
     "options": [
       "Los 9 Departamentos de Formosa",
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "question": "¿Cómo se llama la Virgen patrona de Formosa? -",
+    "question": "¿Cómo se llama la Virgen patrona de Formosa?",
     "image": null,
     "options": [
       "Virgen del Carmen",
@@ -287,7 +287,7 @@
   },
   {
     "id": 27,
-    "question": "¿Qué es la Reserva Guaycolec? -",
+    "question": "¿Qué es la Reserva Guaycolec?",
     "image": null,
     "options": [
       "Una Estacion de Animales Silvestres",
@@ -298,7 +298,7 @@
   },
   {
     "id": 28,
-    "question": "La estructura del Museo Juan Pablo Duffard, ¿Qué función tenía antiguamente? -",
+    "question": "La estructura del Museo Juan Pablo Duffard, ¿Qué función tenía antiguamente?",
     "image": null,
     "options": [
       "Residencia del Gobernador Fotheringham",
@@ -309,7 +309,7 @@
   },
   {
     "id": 29,
-    "question": "El edificio de la Municipalidad ¿Que función tenía antiguamente? -",
+    "question": "El edificio de la Municipalidad ¿Que función tenía antiguamente?",
     "image": null,
     "options": [
       "Estación de Ferrocarril",
@@ -364,7 +364,7 @@
   },
   {
     "id": 34,
-    "question": "¿Qué representa el campo blanco en la Bandera de Formosa? -",
+    "question": "¿Qué representa el campo blanco en la Bandera de Formosa?",
     "image": null,
     "options": [
       "Producción de algodones",
@@ -375,29 +375,29 @@
   },
   {
     "id": 35,
-    "question": "¿En qué localidad se encuentra el Museo Provincial de Ciencias Naturales? -",
+    "question": "¿En qué localidad se encuentra el Museo Provincial de Ciencias Naturales?",
     "image": null,
     "options": [
       "Villa Escolar",
-      "Villafañe/",
+      "Villafañe",
       "Villa 213"
     ],
     "answer": "Villa Escolar"
   },
   {
     "id": 36,
-    "question": "¿Quiénes fueron los autores de la Marcha Formosa? -",
+    "question": "¿Quiénes fueron los autores de la Marcha Formosa?",
     "image": null,
     "options": [
-      "Armando De Vita y Lacerra - Victor Rival",
-      "Vicente López y Planes - Blas Parera",
-      "Carlos Obligado - José Tieri"
+      "Armando De Vita y Lacerra, Victor Rival",
+      "Vicente López y Planes, Blas Parera",
+      "Carlos Obligado, José Tieri"
     ],
-    "answer": "Armando De Vita y Lacerra - Victor Rival"
+    "answer": "Armando De Vita y Lacerra, Victor Rival"
   },
   {
     "id": 37,
-    "question": "¿Cómo se llama la costanera de Formosa? -",
+    "question": "¿Cómo se llama la costanera de Formosa?",
     "image": null,
     "options": [
       "Costanera Costa Formosa",
@@ -408,7 +408,7 @@
   },
   {
     "id": 38,
-    "question": "¿Dónde descansan los restos del Comandante Luis Jorge Fontana? -",
+    "question": "¿Dónde descansan los restos del Comandante Luis Jorge Fontana?",
     "image": null,
     "options": [
       "En el Museo Pablo Duffard",
@@ -419,7 +419,7 @@
   },
   {
     "id": 39,
-    "question": "¿En qué localidad nació el actual Gobernador de la Provincia de Formosa? -",
+    "question": "¿En qué localidad nació el actual Gobernador de la Provincia de Formosa?",
     "image": null,
     "options": [
       "Espinillo",
@@ -529,7 +529,7 @@
   },
   {
     "id": 49,
-    "question": "¿Dónde se ubica la Reserva Natural Formosa dentro de la provincia? -",
+    "question": "¿Dónde se ubica la Reserva Natural Formosa dentro de la provincia?",
     "image": null,
     "options": [
       "al norte",
@@ -540,7 +540,7 @@
   },
   {
     "id": 50,
-    "question": "¿En qué Departamento se encuentra Herradura? -",
+    "question": "¿En qué Departamento se encuentra Herradura?",
     "image": null,
     "options": [
       "Formosa",
@@ -551,7 +551,7 @@
   },
   {
     "id": 51,
-    "question": "¿En qué fecha se celebra el día de la Patrona Virgen del Carmen? -",
+    "question": "¿En qué fecha se celebra el día de la Patrona Virgen del Carmen?",
     "image": null,
     "options": [
       "19 de Abril",

@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { Gamepad2 } from 'lucide-react'
 
 const SectionHome = ({setHasStarted} : {setHasStarted: React.Dispatch<React.SetStateAction<boolean>>}) => {
   return (
@@ -14,9 +15,10 @@ const SectionHome = ({setHasStarted} : {setHasStarted: React.Dispatch<React.SetS
             
             <button
               onClick={() => setHasStarted(true)}
-              className="font-[Sora] mt-6 bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg font-semibold
+              className="flex items-center gap-2 mt-6 bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg font-semibold
                text-green-950 transition hover:bg-green-600 cursor-pointer">
               Jugar ahora
+              <Gamepad2 />
             </button>
           </section>
   )
