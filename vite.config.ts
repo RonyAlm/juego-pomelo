@@ -10,6 +10,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
+
       workbox: {
         globPatterns: [
           '**/*.{js,css,html,ico,png,svg,jpg,jpeg,webp,woff2,mp3,ogg,wav}'
@@ -22,7 +23,7 @@ export default defineConfig({
         display: 'standalone',
         background_color: '#008231',
         start_url: '/?installed=true',
-        orientation: 'portrait',
+        orientation: 'landscape',
         theme_color: '#008231',
         icons: [
           {
