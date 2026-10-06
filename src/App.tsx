@@ -334,10 +334,10 @@ function App() {
                     <img
                       src={questionImages[currentQuestion.image] ?? currentQuestion.image}
                       alt="Imagen de la pregunta"
-                      className="mx-auto max-h-72 w-full rounded-2xl object-contain my-4 mb-6"
+                      className="mx-auto max-h-40 w-full rounded-2xl object-contain my-4"
                     />
                   )}
-                  <h1 className="text-green-900 text-2xl font-semibold sm:text-3xl">{currentQuestion.question}</h1>
+                  <h1 className="text-green-900 text-2xl font-semibold sm:text-lg">{currentQuestion.question}</h1>
                   
                   {currentQuestion.audio && (
                     <div className="mt-4 mb-4 rounded-2xl border border-green-900/10 bg-white/70 p-4">
@@ -375,7 +375,7 @@ function App() {
                         key={option.label}
                         onClick={() => handleAnswer(option)}
                         className={[
-                          'text-green-800 w-auto rounded-2xl border px-4 py-4 text-sm font-medium transition',
+                          'text-green-800 w-auto rounded-2xl border p-4 md:py-2 text-sm font-medium transition',
                           optionClassName,
                           optionImage ? '' : 'w-full',
                         ].join(' ')}
@@ -413,14 +413,14 @@ function App() {
                 </div>
 
                 {selectedAnswer && (
-                  <div className="rounded-2xl bg-green-600/60 p-4 text-lg text-slate-200">
-                    <p className={(selectedAnswer === currentQuestion.answer ? 'text-green-950 font-semibold' : 'text-rose-500 text-2xl')}>
+                  <div className="rounded-2xl bg-green-600/60 p-4 text-lg md:text-sm text-slate-200">
+                    <p className={(selectedAnswer === currentQuestion.answer ? 'text-green-950 font-semibold' : 'text-rose-500 text-2xl md:text-sm')}>
                       {selectedAnswer === currentQuestion.answer ? '¡Correcto!' : 'Respuesta incorrecta.'}
                     </p>
                     <p className="mt-1">La respuesta correcta es: <span className="font-semibold text-white">{currentQuestion.answer}</span></p>
                     <button
                       onClick={handleNext}
-                      className="mt-4 bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg font-semibold
+                      className="mt-4 bg-green-600 rounded-2xl border-2 border-zinc-800 shadow-[4px_4px_0px_#0a2d16] px-6 py-3 text-lg  md:text-sm font-semibold
                text-green-950 transition hover:bg-green-600 cursor-pointer flex items-center justify-center gap-2"
                     >
                       {currentIndex === questions.length - 1 ? 'Ver resultado' : (
